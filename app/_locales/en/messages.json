@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "AJ Popup Blocker",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Block Thank You for Visiting Frame",
+    "description": "The description of the application"
+  }
+}
