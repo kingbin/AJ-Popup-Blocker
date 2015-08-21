@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Lubbock Online Popup Blocker",
+  "description": "Block Thank You for Visiting Frame",
+  "version": "1.0",
+  "icons": {  "16": "icon16.png",
+              "48": "icon48.png",
+              "128": "icon128.png" },
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://lubbockonline.com/*"],
+      "js": ["jquery.js", "popup.js"]
+    }
+  ]
+}
