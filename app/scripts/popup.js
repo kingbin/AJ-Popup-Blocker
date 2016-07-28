@@ -3,9 +3,9 @@
 function unloadFrames (evt) {
   /* jshint unused: false */
   function checkForJSFinish () {
-      if ( $('#ppUI').length || $('#pressplusOverlay').length) {
-        $('#ppUI').remove();
-        $('#pressplusOverlay').remove();
+      if ( $('#syncronexOverlayContainer').length) {
+        $('#syncronexOverlayContainer').remove();
+        $('#syncronexOverlay').remove();
         //clearInterval (jsInitChecktimer);
       }
     }
